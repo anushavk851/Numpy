@@ -1,4 +1,4 @@
-#9 remove outliers
+#remove outliers
 a = np.array([10, 12, 14, 15, 16, 18, 20, 100])
 Q1=np.percentile(a,25)
 Q3=np.percentile(a,75)
